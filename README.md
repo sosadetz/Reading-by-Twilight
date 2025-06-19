@@ -4,7 +4,7 @@ ARTICLE LINK [ADD]
 
 DOI [ADD]
 
-This repository contains a research appendix relating to the prototype semantic search engine for eighteenth-century texts.
+This repository contains a research appendix relating to my prototype semantic search engine for eighteenth-century texts.
 
 **1. Query Details**
 
