@@ -1,4 +1,4 @@
-**Reading-by-Twilight: Search and the Depths of the Archive**
+**Reading by Twilight: Search and the Depths of the Archive**
 
 **1. Query Details**
 
