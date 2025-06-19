@@ -1,20 +1,14 @@
 **Reading-by-Twilight: Search and the Depths of the Archive**
 
-ARTICLE LINK [ADD]
-
-DOI [ADD]
-
-This repository contains a research appendix relating to my prototype semantic search engine for eighteenth-century texts.
-
 **1. Query Details**
 
-  a. Loading set of literary passage used to generate initial query cluster
+  a. Loading set of literary passages used to generate initial query cluster
   
   b. Primary query cluster
 
 **2. Prototype Screenshots**
 
- Static images illustrating the primary components of the prototype search engine (query builder, results, filters)
+ Static images of search engine (query builder, results, filters)
 
 **3. Example Search Results**
 
@@ -32,16 +26,16 @@ This repository contains a research appendix relating to my prototype semantic s
  
 **4. Platform Comparison - Experiment Details**
 
-   Observations relating to the platform-comparison experiment described in section 5 of the article.
+   Observations relating to the platform-comparison experiment described in Section 5.
    
-   a. `0. platform_comparison_-_query_details` - General comments and query details
+   a. `0. platform_comparison_-_query_details` - General comments
    
-   b. Observations: Direct comparison of volumes retrieved by ECCO and HathiTrust and my own prototype, including number of passages matched in that volume and the rank of the first pasage matched.
+   b. Observations: Direct comparison of ECCO and HathiTrust volumes prototype, incl. # passages matched and the rank of first pasage matched.
    
-   c. Prototype results: Benchmark spreadsheets with passage-level details, 1000 hits for each query.
+   c. Prototype results: Benchmark passage-level spreadsheets, 1000 hits per query.
    
-   d. Screenshots of ECCO and HathiTrust volume results
+   d. Screenshots of ECCO and HathiTrust results
 
 **5. Additional Figures**
 
-   More detailed (color) versions for certain figures that appear in the article.
+   Detailed (color) versions for certain figures that appear in the article.
