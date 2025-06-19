@@ -1,0 +1,101 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 General comments:
+\f1\b0 \
+A direct comparison of ECCO, HathiTrust, and my own prototype platform is somewhat difficult due to differences in both the mechanisms of query construction and the underlying databases. Whenever searching ECCO and HathiTrust, I restricted results to the years 1701-1800, and only counted volumes from HathiTrust when a direct match was found with the ECCO dataset (that is, a volume from the same publisher and edition). HathiTrust contains many items not in ECCO, particularly a periodical journals, so, according to my criteria these were excluded from consideration.\
+For each query, I introduced Boolean OR operators and wildcarded terms whenever these were not a native option. In some cases with ECCO, the queries were too long to submit in a single field, so I broke the queries across two fields and used the OR operator to separate the two fields, which effectively achieves the same search as I used in HathiTrust and my own search engine. In all cases, I searched against the full-text version of the document (in ECCO, the \'93Entire Document\'94 field; in HathiTrust, \'93Only Full-Text\'94). Results were sorted by relevance.\
+Both platforms may update their search algorithm, volumes indexed, and metadata from time to time, so results may not exactly match those that I produced. As noted in my article, the searches underlying this experiment were run on April 7, 2025. 
+\f0\b NB: 
+\f1\b0 Due to a problem capturing the screenshots for HathiTrust searches when they were originally run, I re-ran these searches on June 15, 2025. Although there are minor differences in the retrieval order between the two searches, the results are sufficiently similar to justify not repeating the experiment.\
+\
+
+\f0\b Query 1: 
+\f1\b0 Long query for \'93principle\'94
+\f0\b \
+ECCO: 
+\f1\b0 \
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li720\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Search String: 
+\f1\b0 author* OR axiom* OR book* OR comprehensive* OR contain* OR contract* OR curiosity* OR digest* OR discern* OR discover* OR doctrine* OR establish* OR fact* OR fame* OR few* OR foundation* OR general* OR genius* OR grandeur* OR human* OR idea* OR infinite* OR intelligent* OR judgement* OR knowledge* OR law* OR learned* OR magnificent* OR mankind* OR maxim* OR multitude* OR nature* OR notion* OR number* OR opinion* OR order* OR perceive* OR philosophy* OR precept* OR principle* OR read* OR reason* OR reduce* OR refine* OR sentence* OR short* OR simple* OR small* OR splendor* OR study* OR subject* OR sublime* OR supreme* OR system* OR tenet* OR theorem* OR truth* OR universal* OR variety* OR various* OR view* OR volume* OR wonder* OR word* OR work* OR world* OR writer*\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 HathiTrust:
+\f1\b0 \
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li720\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Search String: 
+\f1\b0 author* axiom* book* comprehensive* contain* contract* curiosity* digest* discern* discover* doctrine* establish* fact* fame* few* foundation* general* genius* grandeur* human* idea* infinite* intelligent* judgement* knowledge* law* learned* magnificent* mankind* maxim* multitude* nature* notion* number* opinion* order* perceive* philosophy* precept* principle* read* reason* reduce* refine* sentence* short* simple* small* splendor* study* subject* sublime* supreme* system* tenet* theorem* truth* universal* variety* various* view* volume* wonder* word* work* world* writer*\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Prototype: \
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li720\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 Search String: 
+\f1\b0 author axiom book comprehensive contain contract curiosity digest discern discover doctrine establish fact fame few foundation general genius grandeur human idea infinite intelligent judgement knowledge law learned magnificent mankind maxim multitude nature notion number opinion order perceive philosophy precept principle read reason reduce refine sentence short simple small splendor study subject sublime supreme system tenet theorem truth universal variety various view volume wonder word work world writer\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Query 2: 
+\f1\b0 Short query for \'93principle\'94\
+
+\f0\b ECCO:\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li720\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 Search String:
+\f1\b0  general* OR law* OR knowledge* OR principle* OR truth*\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 HathiTrust:\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li720\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 Search String: 
+\f1\b0 general* law* knowledge* principle* truth*\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Prototype:\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li720\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 Search String: 
+\f1\b0 general law knowledge principle truth\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 Query 3: 
+\f1\b0 The novel\
+
+\f0\b ECCO: \
+	Search String: 
+\f1\b0 adventure* OR age* OR appearance* OR author* OR book* OR character* OR design* OR education* OR entertainment* OR event* OR fable* OR fiction* OR genius* OR happen* OR heart* OR hero* OR history* OR human* OR imagination* OR interest* OR judgement* OR knowledge* OR lady* OR language* OR life* OR long* OR love* OR mankind* OR manner* OR mind* OR modern* OR moral* OR natural* OR novel* OR original* OR passage* OR piece* OR pleasure* OR poetry* OR probability* OR prose* OR public* OR read* OR reason* OR romance* OR romantic* OR scenes* OR sentiment* OR species* OR story* OR taste* OR think* OR thought* OR veracity* OR virtue* OR work* OR writers* OR writing* OR young*\
+
+\f0\b HathiTrust: \
+	Search String: 
+\f1\b0 adventure* age* appearance* author* book* character* design* education* entertainment* event* fable* fiction* genius* happen* heart* hero* history* human* imagination* interest* judgement* knowledge* lady* language* life* long* love* mankind* manner* mind* modern* moral* natural* novel* original* passage* piece* pleasure* poetry* probability* prose* public* read* reason* romance* romantic* scenes* sentiment* species* story* taste* think* thought* veracity* virtue* work* writers* writing* young*\
+
+\f0\b Prototype: \
+	Search String: 
+\f1\b0 adventure age appearance author book character design education entertainment event fable fiction genius happen heart hero history human imagination interest judgement knowledge lady language life long love mankind manner mind modern moral natural novel original passage piece pleasure poetry probability prose public read reason romance romantic scenes sentiment species story taste think thought veracity virtue work writers writing young \
+\
+
+\f0\b Query 4: 
+\f1\b0 Slavery and the slave trade\
+
+\f0\b ECCO: \
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 	
+\f0\b Search String: 
+\f1\b0 africa* OR carry* OR child* OR coast* OR colony* OR condition* OR country* OR dutch* OR foreign* OR fort* OR free* OR french* OR gold* OR hand* OR humanity* OR indies* OR island* OR labour* OR liberty* OR manner* OR nation* OR native* OR negro* OR pain* OR person* OR plantation* OR planter* OR present* OR property* OR purchase* OR ship* OR slave* OR slavery* OR sold* OR suffer* OR sugar* OR torture* OR trade* OR trader* OR traffic* OR value* OR west*\
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl264\slmult1\pardirnatural\partightenfactor0
+
+\f0\b \cf0 HathiTrust: \
+	Search String: 
+\f1\b0 africa* carry* child* coast* colony* condition* country* dutch* foreign* fort* free* french* gold* hand* humanity* indies* island* labour* liberty* manner* nation* native* negro* pain* person* plantation* planter* present* property* purchase* ship* slave* slavery* sold* suffer* sugar* torture* trade* trader* traffic* value* west*\
+
+\f0\b Prototype: \
+	Search String: 
+\f1\b0 africa carry child coast colony condition country dutch foreign fort free french gold hand humanity indies island labour liberty manner nation native negro pain person plantation planter present property purchase ship slave slavery sold suffer sugar torture trade trader traffic value west}
